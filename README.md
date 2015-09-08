@@ -6,12 +6,20 @@
 - Modules
 - Controllers
 - Built-in directives
-- $http
-- $routeProvider
 
 ###[Day 2](day_2/)
-- Animations
+- $http
+
+###[Day 3](day_3/)
+- $routeProvider
+
+###[Day 4](day_4/)
 - Factories
 - $resource
+
+###[Day 5](day_5/)
 - Custom directives
+
+###[Day 6](day_6/)
 - Filters
+- Animations
