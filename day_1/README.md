@@ -9,6 +9,18 @@
 - Because Angular uses AJAX to load in its views, it's best to run any Angular app via a server.
 - We will be using simplehttpserver that we downloaded earlier to accomplish this.
 
+##Running a Simple Server
+- When we load in additional views later in the course we will need to run a simple server to see the result.
+- This is due to CORS permissions that are avoided by running the server.
+- We will be using a module called Python SimpleHTTPServer.
+- To run the server in a specific directory, navigate to the directory via your terminal and type the following command:
+
+```
+python -m SimpleHTTPServer 3000
+```
+
+- Replace the 3000 with a port of your choice. 
+
 ##Data Binding
 - One of the core aspects of Angular is data binding.
 - Angular is a two-way binding system. This means that data that is inputted on the HTML side is also immediately available to JavaScript.
