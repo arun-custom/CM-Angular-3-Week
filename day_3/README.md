@@ -1,3 +1,26 @@
+##$http Warmup
+- In this exercise we will be putting it all together and creating the functionality to add a new wine to our application.
+- Your task is to:
+	- Step 1: Create a click function on the "Save Wine" button.
+	- Step 2: Process a POST request to `http://daretodiscover.herokuapp.com/wines`.
+
+Sample POST request:
+
+```javascript
+$http.post("http://daretodiscover.herokuapp.com/wines", {
+	firstname: "Arun",
+	lastname: "Sood"
+}).then(function() {
+	alert("Post finished!");
+});
+```
+
+To close the modal window after POST:
+
+```javascript
+$("#add-wine-modal").modal("hide");
+```
+
 ##$routeProvider
 - Routes allow you to add multiple page functionality to your app.
 - Views are triggered via the location hash.
